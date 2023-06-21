@@ -25,7 +25,7 @@ app.use('/api/auth', auth);
 app.use('/api/user', user);
 
 app.get('/',(req,res)=>{
-  console.log("hello")
+  res.send("api is working")
 
 })
 const formDataSchema = new mongoose.Schema({
